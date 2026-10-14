@@ -4,38 +4,43 @@ I'm an Electrical and Computer Engineering student at UT Austin, graduating in M
 
 I'm looking for Summer 2027 internships in software engineering, robotics, embedded software, and hardware engineering.
 
-[LinkedIn](https://www.linkedin.com/in/rithvik-vadlamani/) · [Project repositories](https://github.com/Rithvik-Vadlamani?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/rithvik-vadlamani/) · [All repositories](https://github.com/Rithvik-Vadlamani?tab=repositories)
 
 ## Start here
 
-For **software engineering**, start with the code review tool and robot task simulator. For **hardware and embedded systems**, start with Guadaloop's wireless power design and Battleship.
+For software engineering, start with the internship alert system and Java library application. For hardware and embedded roles, start with the KVM switch and Guadaloop designs. The datasheet assistant and LC-3b simulator show work across both areas.
 
-| Project | What it does | Built with |
+## Software projects
+
+| Project | What I built | Built with |
 | --- | --- | --- |
-| [Code review CLI](https://github.com/Rithvik-Vadlamani/ai-code-reviewer#readme) | Reads a Git diff and flags potential bugs and security issues. Includes rule-based checks and an optional language-model backend. | Python, Git, pytest |
-| [Robot task simulator](https://github.com/Rithvik-Vadlamani/behavior-tree-robot#readme) | Uses a behavior tree to run patrol and pick-and-place scenarios, including recovery when the simulated robot needs to charge. | Python, behavior trees, pytest |
-| [Guadaloop wireless power transfer](https://github.com/Rithvik-Vadlamani/guadaloop-wireless-power-transfer#readme) | Models a four-section wireless charging track with a 60 V, 20 A output target. Includes coil calculations, circuit models, and saved simulation results. | MATLAB, Simulink, Simscape, Python |
-| [Embedded Battleship](https://github.com/Rithvik-Vadlamani/Battleship-Game#readme) | Runs a two-player game on an MSPM0G3507 microcontroller with an LCD, physical controls, and English/Spanish text. | C, microcontrollers, ST7735 display |
+| [Internship alert system](https://github.com/Rithvik-Vadlamani/internship-alert-system#readme) | Collects internships, matches them to resumes, sends alerts, and tracks applications. [Try the fictional-data demo](https://internship-alerts-1412.onrender.com/demo/). | Python, FastAPI, PostgreSQL, ONNX |
+| [Library management system](https://github.com/Rithvik-Vadlamani/library-management-system#readme) | A desktop client and TCP server with concurrent client handling, synchronized borrowing, and hold queues. | Java, JavaFX, Gson, JUnit |
+| [Datasheet assistant](https://github.com/Rithvik-Vadlamani/kicad-datasheet-assistant#readme) | Connects circuit netlists with source-cited datasheet answers and electrical checks. Includes an offline demo. | Python, SQLite, NumPy, pytest |
+| [LC-3b processor simulator](https://github.com/Rithvik-Vadlamani/lc3b-simulator#readme) | A five-stage pipeline and a separate microcoded processor with virtual memory and exception handling. | C |
 
-### A closer look at the hardware work
+## Hardware and embedded projects
 
-On Guadaloop's power electronics team, I've designed buck-converter and LDO boards for a 60 V battery system and co-designed a four-layer H-bridge for magnetic levitation. The public wireless power repository covers a separate design and simulation project. Its output and efficiency results are simulated; prototype measurements are still needed.
+| Project | What it covers | Built with |
+| --- | --- | --- |
+| [HDMI/USB KVM switch](https://github.com/Rithvik-Vadlamani/kvm-switch#readme) | A four-layer board and firmware for sharing two displays and a USB hub between two computers. Includes firmware/model verification. | STM32, C, KiCad |
+| [Guadaloop wireless power](https://github.com/Rithvik-Vadlamani/guadaloop-wireless-power-transfer#readme) | Coil calculations and circuit models for a four-section track with a 60 V, 20 A output target. | MATLAB, Simulink, Simscape, Python |
+| [Guadaloop power electronics](https://github.com/Rithvik-Vadlamani/guadaloop-power-electronics#readme) | Selected buck-converter, medium-voltage board, and levitation H-bridge designs with review notes. | Circuit design, power electronics, KiCad |
+| [Embedded Battleship](https://github.com/Rithvik-Vadlamani/Battleship-Game#readme) | A two-player game on a microcontroller with an LCD, physical controls, and English/Spanish text. | MSPM0G3507, C, ST7735 |
 
-[Read the wireless power design report](https://github.com/Rithvik-Vadlamani/guadaloop-wireless-power-transfer/blob/main/DD_TRACK_DESIGN.md) · [Open the project guide](https://github.com/Rithvik-Vadlamani/guadaloop-wireless-power-transfer/blob/main/START_HERE.md)
+The KVM and power-board packages include design and verification work. They do not establish measured prototype performance. Wireless power results are simulations; the linked reports describe the assumptions and remaining hardware work.
 
 ## More projects
 
-- [LiDAR point-cloud encoder](https://github.com/Rithvik-Vadlamani/lidar-sensor-encoder#readme): a PyTorch implementation of a masked autoencoder for reconstructing missing point-cloud geometry.
-- [Demand forecasting](https://github.com/Rithvik-Vadlamani/supply-chain-forecasting#readme): compares ARIMA, Prophet, and XGBoost on synthetic demand data, with a [Colab notebook](https://colab.research.google.com/github/Rithvik-Vadlamani/supply-chain-forecasting/blob/main/demo_colab.ipynb).
-- [CartPole policy gradient](https://github.com/Rithvik-Vadlamani/rl-cartpole#readme): implements REINFORCE with NumPy and Gymnasium.
-- [ROS 2 publisher/subscriber](https://github.com/Rithvik-Vadlamani/ros2-pub-sub#readme): a small Python example of topic-based communication between nodes.
-
-## Other work
-
-I've also built a personal internship discovery tool with FastAPI, PostgreSQL, and ONNX; an LC-3b processor simulator in C; and a datasheet retrieval assistant for circuit design. My HDMI/USB KVM project combines a four-layer PCB design with STM32 firmware. These projects aren't linked here because their code isn't currently public.
+- [PCB automation skill](https://github.com/Rithvik-Vadlamani/pcb-automation-skill#readme): reusable design instructions, example specifications, and verification tooling.
+- [Robot task simulator](https://github.com/Rithvik-Vadlamani/behavior-tree-robot#readme): behavior trees for patrol, pick-and-place, and low-battery recovery in simulation.
+- [DeltaTile](https://github.com/Rithvik-Vadlamani/ttihp-deltatile#readme): a signed INT4 systolic accelerator with RTL and verification evidence. Physical silicon validation remains outstanding.
+- [Code review CLI](https://github.com/Rithvik-Vadlamani/ai-code-reviewer#readme): Git-diff checks with a rule-based reviewer and optional language-model backend.
+- [LiDAR point-cloud encoder](https://github.com/Rithvik-Vadlamani/lidar-sensor-encoder#readme): a PyTorch masked autoencoder implementation for reconstructing missing geometry.
+- [Demand forecasting](https://github.com/Rithvik-Vadlamani/supply-chain-forecasting#readme): ARIMA, Prophet, and XGBoost comparisons on synthetic data.
 
 ## Skills
 
-**Software:** Python, C, Java, SQL, FastAPI, PostgreSQL, Git, Linux, automated testing.
+Software: Python, C, Java, SQL, FastAPI, PostgreSQL, Git, Linux, automated testing.
 
-**Hardware and embedded:** microcontrollers, embedded firmware, PCB design, power electronics, MATLAB/Simulink, KiCad.
+Hardware and embedded: microcontrollers, embedded firmware, PCB design, power electronics, MATLAB/Simulink, KiCad.
