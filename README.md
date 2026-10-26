@@ -33,11 +33,7 @@ The KVM and power-board packages include design and verification work. They do n
 ## More projects
 
 - [PCB automation skill](https://github.com/Rithvik-Vadlamani/pcb-automation-skill#readme): reusable design instructions, example specifications, and verification tooling.
-- [Robot task simulator](https://github.com/Rithvik-Vadlamani/behavior-tree-robot#readme): behavior trees for patrol, pick-and-place, and low-battery recovery in simulation.
 - [DeltaTile](https://github.com/Rithvik-Vadlamani/ttihp-deltatile#readme): a signed INT4 systolic accelerator with RTL and verification evidence. Physical silicon validation remains outstanding.
-- [Code review CLI](https://github.com/Rithvik-Vadlamani/ai-code-reviewer#readme): Git-diff checks with a rule-based reviewer and optional language-model backend.
-- [LiDAR point-cloud encoder](https://github.com/Rithvik-Vadlamani/lidar-sensor-encoder#readme): a PyTorch masked autoencoder implementation for reconstructing missing geometry.
-- [Demand forecasting](https://github.com/Rithvik-Vadlamani/supply-chain-forecasting#readme): ARIMA, Prophet, and XGBoost comparisons on synthetic data.
 
 ## Skills
 
